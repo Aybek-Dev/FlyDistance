@@ -1,0 +1,6 @@
+@FlyDistance.Api_HostAddress = http://localhost:5052
+
+GET {{FlyDistance.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
