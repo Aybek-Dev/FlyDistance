@@ -22,16 +22,15 @@ docker-compose up -d
 1. Откройте решение в Visual Studio или Rider
 2. Запустите проект `FlyDistance.Api`
 
-## API Эндпоинты
-
 ### 3. Данные можно загрузить из файла **iata-icao** и потом тестить 
+
+## API Эндпоинты
 
 ### 1. Получение информации об аэропорте
 
 ```
 GET /api/airports/{code}
 ```
-//localhost:5000/api/airports/AMS`
 
 ### 2. Расчет расстояния между аэропортами
 
